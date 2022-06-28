@@ -1,6 +1,6 @@
-setInterval(changeToRelativeAxis, 1000);
+setInterval(changeToBlueBox, 1000);
 
-function changeToRelativeAxis() {
+function changeToBlueBox() {
   var element = document.getElementById('boxId'),
       rect = element.getBoundingClientRect(),
       move = 50; // in pixel
